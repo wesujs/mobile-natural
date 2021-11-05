@@ -154,15 +154,21 @@ body
 
 #footer {
     background-color: #1B262C;
-    text-align: center;
     border: 0;
+    text-align: center;
+    height: 5rem;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 #footer div {
     display: inline-block;
-    margin-right: 2rem;
     font-size: 2rem;
     background: -webkit-linear-gradient(#001E6C, #3282B8, #fff);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+
+.github {
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
