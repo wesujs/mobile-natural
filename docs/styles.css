@@ -1,0 +1,174 @@
+body
+
+/* Navbar Section */
+
+.navbar-light a, .navbar-light a:hover, .navbar-light {
+    color: black;
+    background-color: #BBE1FA;
+}
+
+.navbar-toggler {
+    color: #0F4C75;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar .fas,
+#navbar .fa-crown {
+    background: -webkit-linear-gradient(#BBE1FA, #0F4C75, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.dropdown-menu {
+}
+
+.dropdown-item {
+}
+
+/* Card Settings */
+
+.card-body,
+.card-title,
+.card-text {
+    border: 0;
+
+}
+
+
+
+/* Showcase Section */
+
+#showcase {
+}
+
+#showcase .card {
+    border: 0;
+    color: #fff;
+}
+
+#showcase .card-title {
+    padding-top: 25%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#BBE1FA, #0F4C75, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#showcase img {
+    opacity: 0.7;
+}
+
+/* Section A */
+
+#section-a {}
+
+#section-a .card {
+    height: 20rem;
+    width: auto;
+    background-color: #BBE1FA;
+    color: #333;
+}
+
+#section-a .card-title {
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff, #BBE1FA, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-a .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#001E6C, #3282B8, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Section B */
+
+#section-b {}
+
+
+#section-b .card {
+    color: #fff;
+    border: 0;
+}
+
+#section-b .card-title {
+    padding-top: 25%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#BBE1FA, #0F4C75, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-b .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#001E6C, #3282B8, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Section C  */
+
+#section-a {}
+
+#section-c .card {
+    height: 20rem;
+    width: auto;
+    background-color: #BBE1FA;
+    color: #333;
+}
+
+#section-c .card-title {
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff, #BBE1FA, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-c .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#001E6C, #3282B8, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Footer Section  */
+
+#footer {
+    background-color: #1B262C;
+    border: 0;
+    text-align: center;
+    height: 5rem;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+#footer div {
+    display: inline-block;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#001E6C, #3282B8, #fff);
+    -webkit-background-clip: text;
+}
+
+.github {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
