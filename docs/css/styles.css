@@ -1,4 +1,13 @@
-body
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 /* Navbar Section */
 
@@ -139,7 +148,7 @@ body
     font-weight: 700;
     background: -webkit-linear-gradient(#fff, #BBE1FA, #0f0f0f);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: none;
 }
 
 #section-c .fa-buffer {
@@ -157,18 +166,20 @@ body
     border: 0;
     text-align: center;
     height: 5rem;
-    padding-bottom: 10%;
-    padding-top: 10%;
 }
 
 #footer div {
     display: inline-block;
-    font-size: 2rem;
-    background: -webkit-linear-gradient(#001E6C, #3282B8, #fff);
-    -webkit-background-clip: text;
+    font-size: 3rem;
+}
+
+.twitter {
+    color: lightblue;
 }
 
 .github {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    color: orangered;
+
 }
