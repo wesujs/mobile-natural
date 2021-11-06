@@ -6,14 +6,17 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -1;
+    background-color: #000000; 
 }
 
 /* Navbar Section */
 
-.navbar-light a, .navbar-light a:hover, .navbar-light {
-    color: black;
-    background-color: #BBE1FA;
+.navbar-dark a, .navbar-dark a:hover, .navbar-dark{
+    color: white;
+    background-color: #161B22;
 }
 
 .navbar-toggler {
@@ -34,6 +37,7 @@ html,body
 }
 
 .dropdown-menu {
+    background-color: #161B22;
 }
 
 .dropdown-item {
@@ -80,8 +84,8 @@ html,body
 #section-a .card {
     height: 20rem;
     width: auto;
-    background-color: #BBE1FA;
-    color: #333;
+    background-color: #0D1117;
+    color: white;
 }
 
 #section-a .card-title {
@@ -132,13 +136,11 @@ html,body
 
 /* Section C  */
 
-#section-a {}
-
 #section-c .card {
     height: 20rem;
     width: auto;
-    background-color: #BBE1FA;
-    color: #333;
+    background-color: #0D1117;
+    color: #fff;
 }
 
 #section-c .card-title {
@@ -148,7 +150,7 @@ html,body
     font-weight: 700;
     background: -webkit-linear-gradient(#fff, #BBE1FA, #0f0f0f);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: none;
+    -webkit-text-fill-color: transparent;
 }
 
 #section-c .fa-buffer {
@@ -162,7 +164,7 @@ html,body
 /* Footer Section  */
 
 #footer {
-    background-color: #1B262C;
+    background-color: #0D1117;
     border: 0;
     text-align: center;
     height: 5rem;
@@ -182,4 +184,253 @@ html,body
     margin-left: 5rem;
     color: orangered;
 
+}
+
+
+
+/* New Technology Page --------------------------------------------------------------------------------------------------------------------------------------- */
+
+#navbar-new {
+
+}
+
+
+#navbar-new .fas,
+#navbar-new .fa-crown {
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+/* Showcase Section */
+
+#showcase-new {
+}
+
+#showcase-new .card {
+    border: 0;
+    color: #fff;
+}
+
+#showcase-new .card-title {
+    padding-top: 50%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#showcase-new img {
+    opacity: 0.7;
+}
+
+
+/* Section A */
+
+#section-a-new .card {
+    height: 20rem;
+    width: auto;
+    background-color: #0D1117;
+    color: #fff;
+}
+
+#section-a-new .card-title {
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-a-new .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Section B */
+
+#section-b-new {}
+
+
+#section-b-new .card {
+    color: #fff;
+    border: 0;
+}
+
+#section-b-new .card-title {
+    padding-top: 50%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-b-new .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Section C */
+
+#section-c-new .card {
+    height: 20rem;
+    width: auto;
+    background-color: #0D1117;
+    color: #fff;
+}
+
+#section-c-new .card-title {
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-c-new .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #0f0f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Ticket Information Page --------------------------------------------------------------------------------------------------------------------------------------- */
+
+#navbar-new {
+
+}
+
+
+#navbar-new .fas,
+#navbar-new .fa-crown {
+    background: -webkit-linear-gradient(#fff3ff, #9F806D, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+/* Showcase Section */
+
+#showcase-tic {
+}
+
+#showcase-tic .card {
+    border: 0;
+    color: #fff;
+}
+
+#showcase-tic .card-title {
+    padding-top: 25%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#showcase-tic img {
+    opacity: 0.7;
+}
+
+
+/* Section A */
+
+#section-a-tic .card {
+    height: 20rem;
+    width: auto;
+    background-color: #0D1117;
+    color: #fff;
+}
+
+#section-a-tic .card-title {
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #161B22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-a-tic .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #161B22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Section B */
+
+#section-b-tic {}
+
+
+#section-b-tic .card {
+    color: #fff;
+    border: 0;
+}
+
+#section-b-tic .card-title {
+    padding-top: 25%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-b-tic .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #161B22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Section C */
+
+#section-c-tic .card {
+    height: 20rem;
+    width: auto;
+    background-color: #0D1117;
+    color: #fff;
+}
+
+#section-c-tic .card-title {
+    padding-top: 20%;
+    padding-bottom: 3%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #161B22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-c-tic .fa-buffer {
+    font-size: 2.5rem;
+    margin-top: 20%;
+    background: -webkit-linear-gradient(#999899, rgb(129, 129, 129), #161B22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
